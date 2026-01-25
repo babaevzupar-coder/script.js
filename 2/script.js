@@ -1,20 +1,18 @@
+let price =Number(prompt("Цена товара"))
 
- let price=Number(prompt("Цена Товара"))
+let quantity=Number(prompt("Колличевство"))
 
- let quantity=Number(prompt("Колличевство"))
+let total= price*quantity
 
- let total= price * quantity;
+alert("Цена" + " " + total)
 
- alert("Общяя сумма" + " " + total + " " + "Сум")
+let discount=Number(prompt("Скидка(%)"))
 
- let discount=Number(prompt("Скидка %"))
+let sale = (total * discount) / 100
 
- let sale= discount*price /100;
+let finalPrice = total - sale
 
- let finalPrice= price-sale;
-
- alert("К оплате"+" " + finalPrice + " "+"Сум")
- alert("Цена со скидкой "+ "" + finalPrice);
+alert ("К оплате" + " " + finalPrice)
 
 let year = 2026
 let birthYear=Number(prompt("Твой Год рождения?"))
@@ -28,3 +26,6 @@ let length2=Number(prompt("Длина комнаты"))
 
 let area= width*length2
 alert("Площадь комнаты" + "" +" " + area +"М2")
+
+
+
