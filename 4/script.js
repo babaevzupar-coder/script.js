@@ -7,6 +7,7 @@ let day = Number (prompt("Введите номер дня недели(1-7)"))
  	alert("Воскресенье")
  }else
  	alert("Ошибка!")
+
   let Number = (prompt("Введите Уровень сложности!"));
 
  if (Number >= 0 && Number <= 20){
@@ -19,6 +20,9 @@ let day = Number (prompt("Введите номер дня недели(1-7)"))
  	alert("Сложный")
  }else 
  	alert("Очень сложный")
+
+
+
  let speed = Number(prompt("Введите скорость (Км/ч)"))
 
  if (speed >= 0 && speed <=60){
@@ -29,6 +33,9 @@ let day = Number (prompt("Введите номер дня недели(1-7)"))
  	alert("Опасное превышение!")
  }else 
  	alert("Критическое превышение сбавьте скорость!")
+
+
+
  let server =Number (prompt("Оценка загрузки сервера"))
 
  if (server >= 0 && server <= 40){
@@ -61,6 +68,8 @@ if (connection >= 1 && connection <=20){
  	alert("Опасная температура")
  }else 	
  	alert("Критическая температура")
+
+
 
 let money = Number(prompt("Расход бюджета (%)"))
 
