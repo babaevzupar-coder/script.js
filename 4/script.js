@@ -22,8 +22,6 @@ let day = Number (prompt("Введите номер дня недели(1-7)"));
  }else 
  	alert("Очень сложный")
 
-
-
  let speed = Number(prompt("Введите скорость (Км/ч)"))
 
  if (speed >= 0 && speed <=60){
@@ -34,8 +32,6 @@ let day = Number (prompt("Введите номер дня недели(1-7)"));
  	alert("Опасное превышение!")
  }else 
  	alert("Критическое превышение сбавьте скорость!")
-
-
 
  let server =Number (prompt("Оценка загрузки сервера"))
 
@@ -70,8 +66,6 @@ if (connection >= 1 && connection <=20){
  	alert("Опасная температура")
  }else 	
  	alert("Критическая температура")
-
-
 
 let money = Number(prompt("Расход бюджета (%)"))
 
