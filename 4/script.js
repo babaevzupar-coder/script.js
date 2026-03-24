@@ -1,4 +1,5 @@
-let day = Number (prompt("Введите номер дня недели(1-7)"))
+let day = Number (prompt("Введите номер дня недели(1-7)"));
+
  if (day >= 1 && day <= 5){
  	alert("Рабочий день ")
  }else if (day === 6){
@@ -46,6 +47,7 @@ let day = Number (prompt("Введите номер дня недели(1-7)"))
  	alert("Высокая нагрузка")
  }else 
  	alert("Критическая нагрузка")
+
  let connection = Number(prompt("Качество связи"))
 
 if (connection >= 1 && connection <=20){
