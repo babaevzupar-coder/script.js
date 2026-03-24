@@ -1,4 +1,4 @@
-let day = Number (prompt("Введите номер дня недели(1-7)"));
+																																`et day = Number (prompt("Введите номер дня недели(1-7)"));
 
 if (day >= 1 && day <= 5){
 	alert("Рабочий день ")
