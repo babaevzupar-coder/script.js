@@ -417,4 +417,54 @@ a {
   position: relative;
   top: 20px;
   color: #646F79;
+  width: 800px;
+  height: 64px;
+  font-size: 22px;
+}
+
+.control h3 {
+  font-size: 22px;
+  color: #646F79;
+}
+
+
+.plan {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+  padding-top: 80px;
+  font-family: arial, sans-serif;
+  position: relative;
+  border-radius: 12px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+
+.plan-wrap {
+  width: 752px;
+  height: 528px;
+  position: absolute;
+}
+
+.scrl-main {
+  position: absolute;
+  z-index: 1;
+}
+
+.scrl-1 {
+  position: absolute;
+  z-index: 0;
+}
+
+.scrl-2 {
+  position: absolute;
+  z-index: -1;
+}
+
+
+.scrl-3 {
+  position: absolute;
+  padding: 30px;
+  z-index: -2;
 }

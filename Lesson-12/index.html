@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+	<link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+	<form id="form">
+		<div class="from-control">
+			<label for="name">Name</label>
+			<input type="text" id="name" placeholder="Enter your name" required>
+		</div>
+
+		<div class="from-control">
+			<label for="email">Email</label>
+			<input type='email' id="email" placeholder="Enter your email" required>
+		</div>
+
+		<div class="from-control">
+			<label for="age">Age</label>
+			<input type='number' id="Age" placeholder="Enter your Age" required>
+		</div>
+
+		<div class="from-control">
+			<label for="role">Which option best describes you?</label>
+			<select name="role" id="role">
+				<option value="student">Student</option>
+				<option value="intern">Intern</option>
+				<option value="professional">Professional</option>
+				<option value="other">Other</option>
+			</select>
+		</div>
+
+		<div class="from-control">
+			<label>Would you recommend GeeksforGeeks to a friend?</label>
+			<label for="recommend-1">
+				<input type='radio' id="recommend-1" name="recommend">Yes
+			</label>
+
+			<label for="recommend-2">
+				<input type='radio' id="recommend-2" name="recommend">No
+			</label>
+
+			<label for="recommend-3">
+				<input type='radio' id="recommend-3" name="recommend">Maybe
+			</label>
+		</div>
+
+		<div class="from-control">
+			<label>Languages and Frameworks known (Check all that apply)</label>
+			<label for="inp-1">
+				<input type='checkbox' name="inp">C
+			</label>
+			<label for="inp-2">
+				<input type='checkbox' name="inp">C#
+			</label>
+			<label for="inp-3">
+				<input type='checkbox' name="inp">React
+			</label>
+			<label for="inp-4">
+				<input type='checkbox' name="inp">Javascript
+			</label>
+		</div>
+
+		<div class="from-control">
+			<label>Any comments or suggestions</label>
+			<textarea placeholder="Text"></textarea>
+		</div>
+
+		<button type='submit'>Send</button>
+
+	</form>
+</body>
+
+</html>
